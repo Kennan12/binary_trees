@@ -24,7 +24,8 @@ int is_bst_helper(const binary_tree_t *tree, int lo, int hi)
 /**
  * binary_tree_is_bst - Checks if a binary tree is a valid binary.
  * @tree: A pointer to the root node of the tree to check.
- * Retuen: 1 if tree is valid bst, and 0 Otherwise.
+ *
+ * Return: 1 if tree is valid bst, and 0 Otherwise.
  */
 int binary_tree_is_bst(const binary_tree_t *tree)
 {
